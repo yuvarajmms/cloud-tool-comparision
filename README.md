@@ -101,3 +101,27 @@ Monitoring|	CloudWatch|	Azure Monitor|	Stackdriver Monitoring
 Support| AWS Support plans|	Azure Support plans|	Google Cloud Support
 Documentation|	<a href="https://docs.aws.amazon.com/ec2/index.html">AWS EC2</a>|	<A href="https://learn.microsoft.com/en-us/azure/virtual-machines/">Azure Virtual Machines</a>|	<a href="https://cloud.google.com/compute/docs">Google Compute Engine</a>
 Limitations|	Instance size limits|	Instance size limits|	Instance size limits
+
+
+## Serverless Computing
+
+Serverless computing is a cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers. "Serverless" is a misnomer in the sense that servers are still used by cloud service providers to execute code for developers. However, developers of serverless applications are not concerned with capacity planning, configuration, management, maintenance, fault tolerance, or scaling of containers, VMs, or physical servers.
+
+In serverless computing, developers write code that is triggered by events, such as HTTP requests, database changes, or file uploads. The cloud provider then executes the code in response to the event, without the developer having to worry about provisioning or managing servers.
+
+Criteria|	AWS Lambda|	Azure Functions|	Google Cloud Functions
+----|----|----|----|
+Compute Engine|	Event-driven Functions|	Event-driven Functions	|Event-driven Functions
+Scalability|	Auto-scaling|	Auto-scaling|	Auto-scaling
+Pricing|	Pay-per-invocation|	Pay-per-invocation|	Pay-per-invocation
+Trigger Options|	Numerous event sources|	Numerous event sources|	Numerous event sources
+Language Support|	Multiple languages|	Multiple languages|	Node.js, Python, Go, etc.
+Integration|	AWS services integration|	Azure services integration|	Google Cloud services integration
+Cold Start Time|	Varies based on runtime|	Varies based on runtime|	Varies based on runtime
+Monitoring|	CloudWatch|	Azure Monitor|	Stackdriver Monitoring
+Support|	AWS Support plans|	Azure Support plans|	Google Cloud Support
+Documentation|	<a href="https://aws.amazon.com/lambda/?did=ft_card&trk=ft_card">AWS Serverless Computing</a>|	<a href="https://azure.microsoft.com/en-us/products/functions/?ef_id=_k_Cj0KCQjw7uSkBhDGARIsAMCZNJu_kqopA8z2JufjUIZkWsOyNhLHmemWkamy_GxZoM77xskNIvw4ivMaAs4SEALw_wcB_k_&OCID=AIDcmm5edswduu_SEM__k_Cj0KCQjw7uSkBhDGARIsAMCZNJu_kqopA8z2JufjUIZkWsOyNhLHmemWkamy_GxZoM77xskNIvw4ivMaAs4SEALw_wcB_k_&gad=1&gclid=Cj0KCQjw7uSkBhDGARIsAMCZNJu_kqopA8z2JufjUIZkWsOyNhLHmemWkamy_GxZoM77xskNIvw4ivMaAs4SEALw_wcB">Azure Functions</a>|	<a href="https://cloud.google.com/serverless">Google Serverless Computing</a>
+Limitations|	Execution time limits, size restrictions|	Execution time limits, concurrency limits|	Execution time limits, memory limits
+
+## Disclaimer
+Please note that the information provided is a general overview and may not capture every detail or feature of each cloud. It's important to refer to the official documentation and websites of each cloud provider for the most up-to-date and comprehensive information regarding their Security offerings.
