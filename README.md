@@ -102,6 +102,48 @@ Support| AWS Support plans|	Azure Support plans|	Google Cloud Support
 Documentation|	<a href="https://docs.aws.amazon.com/ec2/index.html">AWS EC2</a>|	<A href="https://learn.microsoft.com/en-us/azure/virtual-machines/">Azure Virtual Machines</a>|	<a href="https://cloud.google.com/compute/docs">Google Compute Engine</a>
 Limitations|	Instance size limits|	Instance size limits|	Instance size limits
 
+## Block Storage
+
+Block storage is a type of cloud storage that stores data in blocks. Each block is a fixed-size unit of data, and blocks are typically 512 bytes to 1 megabyte in size. Block storage is designed for applications that require high performance and low latency, such as databases, virtual machines, and high-performance computing applications.
+
+Criteria|	AWS EBS|	Azure Disk Storage|	Google Persistent Disk
+----|----|----|----|
+Storage Types|	SSD, HDD|	SSD, Standard|	SSD, Standard
+Scalability|	Vertical scaling|	Vertical scaling|	Vertical scaling
+Performance|	High performance|	High performance|	High performance
+Pricing|	Pay-as-you-go|	Pay-as-you-go|	Pay-as-you-go
+Availability|	Highly available|	Highly available|	Highly available
+Snapshot|	Point-in-time backups|	Snapshot capabilities|	Snapshot capabilities
+Encryption|	Encryption at rest|	Encryption at rest|	Encryption at rest
+Replication|	EBS Multi-Attach|	Zone-redundant storage|	Regional Replication
+Integration|	AWS services|	Azure services|	Google Cloud services
+Volume Types|	General Purpose, Provisioned IOPS, Cold HDD, Throughput Optimized HDD|	Premium SSD, Standard SSD, Standard HDD	|SSD, Balanced, HDD
+Snapshots|	EBS Snapshots|	Azure Snapshots|	GCP Snapshots
+Monitoring|	CloudWatch|	Azure Monitor|	Stackdriver Monitoring
+Support|	AWS Support plans|	Azure Support plans|	Google Cloud Support
+Documentation|	AWS Documentation|	Azure Documentation|	Google Cloud Docs
+Limitations|	Volume size limits, IOPS limits|	Disk size limits, IOPS limits|	Disk size limits, IOPS limits
+
+## File System
+
+A cloud file system is a hierarchical storage system in the cloud that provides shared access to file data. Users can create, delete, modify, read, and write files, as well as organize them logically in directory trees for intuitive access.
+
+Criteria|	AWS EFS|	Azure Files|	Google Cloud Filestore
+----|----|----|----|
+Storage Type|	Network File System|	Network File Share|	Network File System
+Scalability|	Automatic scaling|	Automatic scaling|	Automatic scaling
+Performance|	Low-latency access|	Low-latency access|	Low-latency access
+Pricing|	Pay-as-you-go|	Pay-as-you-go|	Pay-as-you-go
+Availability|	Highly available|	Highly available|	Highly available
+Data Redundancy|	Multi-AZ replication|	Zone-redundant storage|	Regional Replication
+Encryption|	Encryption at rest|	Encryption at rest|	Encryption at rest
+Protocol Support|	NFSv4.1|	SMB 3.0|	NFSv3
+Integrations|	AWS services|	Azure services|	Google Cloud services
+Data Transfer|	Data transfer within the same region is free|	Data transfer within the same region is free|	Data transfer within the same region is free
+Monitoring|	CloudWatch|	Azure Monitor|	Stackdriver Monitoring
+Support|	AWS Support plans|	Azure Support plans|	Google Cloud Support
+Documentation|	AWS Documentation|	Azure Documentation|	Google Cloud Docs
+Limitations|	File system size limits, performance scaling|	File size limits, performance scaling|	File size limits, performance scaling
 
 ## Serverless Computing
 
